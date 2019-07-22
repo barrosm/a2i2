@@ -7,9 +7,10 @@ install.packages("ggmap")
 
 library(RgoogleMaps)
 getGeoCode("Rio de Janeiro")
-getGeoCode("Rua Domingos Ferreira 25 Rio de Janeiro")
+# Below - address for PUC - Rio
+getGeoCode("Rua Marques de Sao Vicente 225 Rio de Janeiro")
 
-location_1="Rua Domingos Ferreira 25 Rio de Janeiro"
+location_1="Rua Marques de Sao Vicente 225 Rio de Janeiro"
 
 # Look at the static maps for the preceding places using the function GetMap.
 
